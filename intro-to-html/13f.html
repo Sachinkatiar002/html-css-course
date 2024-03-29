@@ -4,86 +4,30 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ex 13</title>
-  <style>
-    body {
-      /* background-color: rgb(64, 30, 30); */
-      font-family: Arial;
-      font-size: 14px;
-      
-    }
-    .flexbox {
-      display: flex;
-      
-    }
-    .column-1 {
-      padding-left: 10px;
-      padding-top: 10px;
-      padding-right: 10px;
-    }
-    .profile-pic {
-      height: 60px;
-      border-radius: 30px;
-    }
-    .user {
-      display: flex;
-    }
-    .user-name {
-      font-weight: bold;
-    }
-    .user-id {
-      color: rgb(120, 120, 120);
-    }
-    .comment {
-      width: 320px;
-      padding-bottom: 15px;
-    }
-    .video-preview {
-      display: flex;
-      height: 100px;
-      width: 300px;
-      border-style: solid;
-      border-color: gray;
-      border-width: 1px;
-      border-radius: 20px;
-    }
-    .thumbnail-column {
-      background-color: grey;
-      width: 170px;
-      border-top-left-radius: 20px;
-      border-bottom-left-radius: 20px;
-    }
-    .video-info-column {
-      padding-left: 10px;
-      padding-top: 10px;
-    }
-    .video-website {
-      color: rgb(120, 120, 120);
-    }
-
-  </style>
+  <link rel="stylesheet" href="styles/13f.css">
 </head>
 <body>
-  <div class="flexbox">
-    <div class="column-1">
-      <img class="profile-pic" src="../channel-pictures/channel-5.jpeg">
+  <div class="tweet">
+    <div class="profile-picture-column">
+      <img class="profile-picture" src="../channel-pictures/channel-6.jpeg">
     </div>
-    <div class="column-2">
-      <div class="user">
-        <div class="user-name">supersimple.dev</div>
-        <div class="user-id">@SuperSimpleDev</div>
+    <div class="tweet-column">
+      <div class="tweet-header">
+        <div class="tweet-author">supersimple.dev</div>
+        <div class="tweet-author-handle">@SuperSimpleDev</div>
       </div>
-      <div class="comment">
-        What is backend web development? A complete overview.  New video is up!
+      <div class="tweet-content">
+        What is backend web development? A complete overview. New video is up!
       </div>
       <div class="video-preview">
         <div class="thumbnail-column"></div>
         <div class="video-info-column">
           <div class="video-website">youtube.com</div>
           <div class="video-title">
-            Backend web development - a complete overview &#40;2021&#41;
+            Backend web development - a complete overview (2021)
           </div>
         </div>
-      </div>  
+      </div>
     </div>
   </div>
 </body>
