@@ -1,54 +1,60 @@
 body {
-  font-family: Arial;
-  background-color: grey;
   height: 3000px;
 }
 
-.flexbox {
+.header {
+  background-color: gray;
   display: flex;
-  background-color: white;
   justify-content: space-between;
   align-items: center;
   position: fixed;
   left: 0;
   right: 0;
   top: 0;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
-.user {
+.left-section {
   display: flex;
   align-items: center;
 }
 
-.profile {
-  margin-left: 70px;
-  margin-right: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
 .profile-pic {
   height: 40px;
+  width: 40px;
   border-radius: 20px;
+  object-fit: cover;
+  margin-right: 10px;
 }
 
-.user-name {
+.name {
   font-family: Arial;
   font-weight: bold;
 }
 
-.add-friend {
+.add-friend-button {
   font-weight: bold;
-  background-color: rgb(40, 101, 215);
+  background-color: rgb(24, 119, 242);
   color: white;
   border: none;
-  padding: 10px;
-  border-radius: 5px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 6px;
+  margin-right: 3px;
 }
 
-.message {
+.message-button {
+  background-color: rgb(230, 230, 230);
   font-weight: bold;
-  padding: 10px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 8px;
+  padding-bottom: 8px;
   border: none;
-  border-radius: 5px;
-  margin-right: 70px;
+  border-radius: 6px;
 }
